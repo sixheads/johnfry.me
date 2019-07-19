@@ -6,9 +6,10 @@ const Work = () => (
   <StaticQuery
     query={graphql`
       query WorkQuery {
-        allMarkdownRemark {
+        allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
           edges {
             node {
+              id
               frontmatter {
                 title
                 date
@@ -28,11 +29,11 @@ const Work = () => (
       }
     `}
     render={data => (
-      <section id="work" className="work">
+      <section id="work" className="work grid">
         <h2 className="title">Work</h2>
-        <div className="work__grid wrapper--content">
+        <div className="work__grid">
           {data.allMarkdownRemark.edges.map(edge => (
-            <WorkItem key={edge.node.frontmatter.title} work={edge} />
+            <WorkItem key={edge.node.id} work={edge} />
           ))}
         </div>
       </section>
