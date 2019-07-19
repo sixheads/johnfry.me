@@ -32,7 +32,7 @@ const Layout = ({ children }) => {
     <div className="wrapper grid">
       <Nav />
       <Header siteTitle={data.site.siteMetadata.title} />
-      <>{children}</>
+        <>{children}</>
       <Footer data={data} />
     </div>
   )

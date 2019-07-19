@@ -1,18 +1,19 @@
-import React from 'react'
+import React from "react"
 
 const AboutSite = () => (
-  <section id="about-site" className="about-site wrapper">
+  <section id="about-site" className="about-site">
     <h2 className="title">About johnfry.me</h2>
     <div className="wrapper--content">
       <p>
-        This site is build using{' '}
+        This site is build using{" "}
         <a className="link--alt" href="https://reactjs.org/">
           React
-        </a>{' '}
-        on top of the excellent static site generator{' '}
+        </a>{" "}
+        on top of the excellent static site generator{" "}
         <a className="link--alt" href="https://www.gatsbyjs.org/">
           Gatsby
-        </a>.
+        </a>
+        .
       </p>
     </div>
   </section>

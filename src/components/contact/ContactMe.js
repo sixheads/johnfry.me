@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 
 const ContactMe = () => {
@@ -13,23 +13,24 @@ const ContactMe = () => {
     }
   `)
 
-  const {siteEmail, sitePhone} = data.site.siteMetadata;
+  const { siteEmail, sitePhone } = data.site.siteMetadata
 
   return (
-    <section id="contact" className="contact wrapper">
+    <section id="contact" className="contact">
       <h2 className="title">Contact</h2>
       <div className="wrapper--content">
         <p>
-          I’d love to talk to you about your new project and how we can work together. I can be contacted via.
+          I’d love to talk to you about your new project and how we can work
+          together. I can be contacted via.
         </p>
         <p className="contact__phone">
-          P:{' '}
+          P:{" "}
           <a className="link--alt" href={`tel:${sitePhone}`}>
             {sitePhone}
           </a>
         </p>
         <p className="contact__email">
-          E:{' '}
+          E:{" "}
           <a className="link--alt" href={`mailto:${siteEmail}`}>
             {siteEmail}
           </a>

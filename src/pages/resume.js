@@ -1,4 +1,5 @@
 import React from "react"
+import PageTransition from 'gatsby-plugin-page-transitions'
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -10,11 +11,13 @@ import Skills from "../components/about/Skills"
 const Resume = () => (
   <Layout>
     <SEO title="Resume" />
-    <SiteIntro intro="Something about a broad range of experience … blah blah blah." />
+    <SiteIntro intro="Something about a broad range of experience … blah blah blah." cta="Get in contact to discuss your project."/>
     <main className="site-main">
-      <Experience />
-      <Education />
-      <Skills />
+      <PageTransition transitionTime={500}>
+        <Experience />
+        <Education />
+        <Skills />
+      </PageTransition>
     </main>
   </Layout>
 )
