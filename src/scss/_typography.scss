@@ -29,6 +29,13 @@
     @include font-size(26);
   }
 }
+.site__intro-cta {
+  margin: 0;
+  a {
+    color: $aqua;
+    text-decoration: none;
+  }
+}
 
 // Main
 .title {
@@ -37,6 +44,12 @@
   border-top: 1px solid $eggshell;
   padding-top: $spacer/2;
   margin: 0;
+}
+.work .title {
+  margin-bottom: $spacer * 1.5;
+  @include bp(sm) {
+    margin-bottom: $spacer * 1.5;
+  }
 }
 
 .work__title {

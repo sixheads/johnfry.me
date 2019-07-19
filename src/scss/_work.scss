@@ -1,10 +1,4 @@
 // Work ----------------------------
-.work .title {
-  margin-bottom: $spacer * 1.5;
-  @include bp(sm) {
-    margin-bottom: 0;
-  }
-}
 .work__item {
   .work__img,
   .work__title {
