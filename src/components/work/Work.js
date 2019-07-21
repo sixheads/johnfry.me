@@ -13,6 +13,7 @@ const Work = () => (
               frontmatter {
                 title
                 date
+                link
                 design
                 designLink
                 featuredImage {
