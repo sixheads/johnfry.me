@@ -11,8 +11,8 @@ const Resume = () => (
   <Layout>
     <SEO title="Resume" />
     <SiteIntro
-      intro="Something about a broad range of experience … blah blah blah."
-      cta="Get in contact to discuss your project."
+      intro="I've had a broad range of experience in my career which I feel brings a lot to the table."
+      cta="Get in contact for a chat."
     />
     <main className="site-main">
       <Experience />
