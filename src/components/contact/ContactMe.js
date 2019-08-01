@@ -19,10 +19,6 @@ const ContactMe = () => {
     <section id="contact" className="contact">
       <h2 className="title">Contact</h2>
       <div className="wrapper--content">
-        <p>
-          I’d love to talk to you about your new project and how we can work
-          together. I can be contacted via.
-        </p>
         <p className="contact__phone">
           P:{" "}
           <a className="link--alt" href={`tel:${sitePhone}`}>

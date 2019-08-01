@@ -10,7 +10,7 @@ const Contact = () => (
   <Layout>
     <SEO title="Contact" />
     <SiteIntro
-      intro="I’d love to talk to you about your new project and how we can work together. So get in touch via the details below."
+      intro="I’d love to talk to you about your project and how we can work together. Get in touch via the details below."
       cta={null}
     />
     <main className="site-main">

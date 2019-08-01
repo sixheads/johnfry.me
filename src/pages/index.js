@@ -9,7 +9,7 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Work" />
     <SiteIntro
-      intro="My name is John Fry. I’m a Melbourne based frontend developer with a strong design background looking for creative projects to collaborate on."
+      intro="Yeah G'day! My name is John Fry. I’m a freelance Melbourne-based frontend developer, specialising in custom WordPress builds. I also dabble in React."
       cta="Get in contact to discuss your project."
     />
     <main className="site-main">

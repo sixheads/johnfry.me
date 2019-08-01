@@ -12,8 +12,8 @@ const About = () => (
   <Layout>
     <SEO title="About" />
     <SiteIntro
-      intro="Learn a little bit about my skills to see if I might be a good fit."
-      cta="Get in touch."
+      intro="I work directly with designers and agencies who are looking for a development partner to work on creative projects."
+      cta="Let's collaborate together!"
     />
     <main className="site-main">
       <AboutMe />

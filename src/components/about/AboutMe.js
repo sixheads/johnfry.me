@@ -1,23 +1,30 @@
-import React from 'react'
-import Link from 'gatsby-link'
+import React from "react"
 
 const AboutMe = () => (
   <section id="about" className="about">
     <h2 className="title">About Me</h2>
     <div className="wrapper--content">
       <p>
-        As I mentioned above I'm a frontend developer, with a particular focus
-        on custom WordPress development. I run a small design and development
-        studio called <a href="https://www.sixheads.com">Sixheads</a> with my
-        partner Bec.
+        I bring my strong design aesthetic to the challenge of working in a
+        digital environment. I enjoy being involved in the creative process,
+        solving complex technical problems, pushing boundaries and creating
+        amazing websites that are functional without compromising the design.
       </p>
       <p>
-        I also work directly with a number of designers and agencies looking for
-        a development partner to work with on projects. With my graphic design
-        background I bring a keen visual sense to the table as well.
+        Studios I've worked with recently in Melbourne and Sydney include: JAC&,
+        Seesaw, D.A.M, Sharrock Design, Studio Journey, Tiny Hunter, RE,
+        Strategy Design.
       </p>
       <p>
-        <Link to="/resume/">To see an extended resume head here.</Link>
+        I also run a design and development studio called{" "}
+        <a
+          href="https://sixheads.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Sixheads
+        </a>
+        .
       </p>
     </div>
   </section>
