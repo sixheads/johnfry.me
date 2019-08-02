@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `johnfry.me`,
-    description: `My name is John Fry. I’m a Melbourne based frontend developer with a strong design background looking for creative projects to collaborate on.`,
+    description: `My name is John Fry. I’m a freelance Melbourne-based frontend developer, specialising in custom WordPress builds. I also dabble in React.`,
     author: `John Fry`,
     siteEmail: "hello@johnfry.me",
     sitePhone: "+61 403 852 969",
